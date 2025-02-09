@@ -1,20 +1,18 @@
-# Projeto Blockchain com TypeScript
+# Projeto CRUD com Spring Boot | API REST com PostgreSQL e Flyway
 
-## _Repositório com Conteúdos de Blockchain_
+## _Repositório com Conteúdos de CRUD em Spring Boot_
 
-> _Conteúdos práticos realizados durante estudos extracurriculares._
+> _Projeto prático desenvolvido durante estudos de back-end com Spring Boot._
 
-> - **_TYPESCRIPT - Linguagem de Programação._**
-> - **_NODE.JS - Ambiente de Execução._**
-> - **_BLOCKCHAIN - Tecnologia de Ledger Descentralizado._**
+> - **_SPRING BOOT – Framework Java para construção de APIs REST._**
+> - **_POSTGRESQL – Banco de Dados Relacional._**
+> - **_FLYWAY – Gerenciamento de Migrações de Banco de Dados._**
 
 <br>
 
 ## ![](icon/icon_conceito.png) Sobre o Projeto
 
-Este documento serve como modelo para documentação de projetos Blockchain.
-Ele visa padronizar a descrição de aplicações que implementam conceitos de blockchain utilizando TypeScript, abordando seus princípios fundamentais, boas práticas e funcionalidades relevantes.
-Uma documentação clara e objetiva auxilia tanto iniciantes quanto desenvolvedores experientes a compreenderem rapidamente o funcionamento e a estrutura do projeto.
+Este projeto foi desenvolvido com o objetivo de demonstrar a criação de uma API RESTful utilizando Spring Boot. Ele integra um banco de dados PostgreSQL para armazenamento dos dados e emprega o Flyway para gerenciar as migrações do banco. O projeto abrange as operações CRUD, demonstrando boas práticas na separação de responsabilidades e no tratamento adequado de exceções, servindo como um guia prático para desenvolvedores que pretendem criar aplicações robustas em Java.
 
 <br>
 
@@ -23,15 +21,15 @@ Uma documentação clara e objetiva auxilia tanto iniciantes quanto desenvolvedo
 ## ![](icon/instrucoes.png) Instruções para Executar o Projeto
 
 1. Faça uma cópia do projeto para sua máquina:
-    - [Git Clone:](https://github.com/RSupwpyFX/blockchain-feb-08-2025) Clone o repositório para o seu computador.
-    - [Download:](https://github.com/RSupwpyFX/blockchain-feb-08-2025/archive/refs/heads/main.zip) Ou baixe o projeto diretamente da página.
+    - [Git Clone:]() Clone o repositório para o seu computador.
+    - [Download:]() Ou baixe o projeto diretamente da página.
 
-2. Importe o projeto para o seu ambiente de desenvolvimento integrado (IDE) e execute a aplicação.
+2. Acesse [Spring Initializr](https://start.spring.io/) e configure o projeto da seguinte maneira e baixe:
+![start spring io_](https://github.com/user-attachments/assets/99bf40df-7154-493b-b081-ecf98af13d07)
 
-3. No diretório do projeto, você pode executar:
-    - #### `npm install` Instala as dependências necessárias.
-    - #### `npm build` Compila o código TypeScript.
-    - #### `npm start -- 4 200` Inicia a aplicação blockchain em modo de desenvolvimento.
+2. Abra o arquivo baixado na sua IDE de preferência (como IntelliJ IDEA ou Eclipse).
+
+4. Execute o projeto e acesse a API em http://localhost:8080 e utilize ferramentas como o Postman para testar as operações CRUD.
 
 <br>
 
@@ -39,12 +37,11 @@ Uma documentação clara e objetiva auxilia tanto iniciantes quanto desenvolvedo
 
 ## ![](icon/configuracoes.png) Tecnologias Utilizadas
 
-- **Visual Studio Code  IDE - Ambiente de Desenvolvimento Integrado**
-- **TypeScript - Linguagem de Programação**
-- **Node.js - Ambiente de Execução**
-- **Blockchain - Tecnologia de Ledger Descentralizado**
-- **Markdown - Linguagem de Formatação de Texto**
-- **Versioning  Controle de Versão - GitHub**
+- **Spring Boot – Framework para criação de APIs REST em Java.**
+- **PostgreSQL – Banco de dados relacional para armazenamento persistente.**
+- **Flyway – Ferramenta para versionamento e migração de banco de dados.**
+- **Postman – Ferramenta para teste e validação de APIs.**
+- **Maven – Gerenciador de dependências e automação de build.**
 
 <br>
 
@@ -54,5 +51,4 @@ Uma documentação clara e objetiva auxilia tanto iniciantes quanto desenvolvedo
 
 > Fontes recomendadas para ampliar seu conhecimento..
 
-1. [Vídeo Tutorial: Blockchain com TypeScript](https://www.youtube.com/watch?v=ztQEaQ06GYs)
-2. [Documentação do TypeScript](https://www.w3schools.com/typescript/)
+1. [Vídeo Tutorial: CRIANDO UM CRUD COM SPRING BOOT | API REST com PostgreSQL e Flyway](https://www.youtube.com/watch?v=ePGAm7mMFFg)
